@@ -42,7 +42,7 @@ Showing that you are logged in as that user.
 
 Whenever you ^make changes to the database you need to create a backup first so that if things go to hell you can restore it. First go to one of your SSH's into the server. Change your directory into the nhs-server-backups folder. Then run the command:
 ```
-mysqldump -p -u root nhs > backup-for-nhs-[year]-[month]-[date].sql
+mysqldump -p -u root nhs > ~/nhs-server-backups/backup-for-nhs-[year]-[month]-[date].sql
 ```
 Replace [year], [month], and [date] with the correct values, eg 2019, 10, 08. Upon running this command type in the password for the database and when the command has finished running make sure that the file has been created.
 
