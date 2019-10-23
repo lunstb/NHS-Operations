@@ -55,7 +55,7 @@ scp -i [yourkey] moundsviewnhs@162.222.176.13:~/nhs-server-backups/[name-of-back
 
 ### Setting up your SQL environment
 
-Now that you have that sql file, you can use it to run a local backup of the database for testing. 
+Now that you have that sql file, you can use it to run a local backup of the database for testing.
 First, you need to install MySQL:
 ```
 brew install mysql
@@ -64,7 +64,7 @@ Next, you can start the MySQL server:
 ```
 mysql.server start
 ```
-Now, you can log in to the server with the default (nonexistant) credentials:
+Now, you can log in to the server with the default (non-existant) credentials:
 ```
 mysql -uroot
 ```
@@ -74,7 +74,7 @@ If you don't already have a schema for NHS run the command:
 ```
 create schema nhs;
 ```
-To add data to your schema, first exit the mysql terminial and then run the command:
+To add data to your schema, first exit the mysql terminal and then run the command:
 ```
 mysql -uroot -p nhs < [whatever-location]/[whatever-name].sql
 ```
@@ -85,4 +85,4 @@ Note: to stop the MySQL server that is running in the background use:
 mysql.server stop
 ```
 
-Congradulations, you can follow instructions! Go check out the readme in the nhs-server repository.
+Congratulations, you can follow instructions! Go check out the readme in the nhs-server repository.
