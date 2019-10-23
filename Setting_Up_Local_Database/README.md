@@ -24,7 +24,7 @@ Copy ALL of the text that shows up because this is important for later. Next ope
 ```
 vim .ssh/authorized_keys
 ```
-Once you run this you should see a list of different keys. Copy paste your key into the list on a new line then save the file. If you don't know how to use vim look it up.
+Once you run this you should see a list of different keys. Copy paste your key into the list on a new line then save the file. If you don't know how to use vim click this [link](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started).
 
 ### Creating the Secure Connection
 
